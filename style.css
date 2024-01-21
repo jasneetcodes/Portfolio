@@ -126,7 +126,7 @@ input:focus, textarea:focus{
     line-height: 1;
 }
 
-.name{
+.title_name{
     font-size: 120px;
     margin-bottom: 12px;
     text-align: left;
