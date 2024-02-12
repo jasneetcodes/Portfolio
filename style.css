@@ -126,7 +126,12 @@ input:focus, textarea:focus{
     line-height: 1;
 }
 
-
+.title_name{
+    font-size: 120px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1;
+}
 
 .yellow {
     color: #ffce2c
