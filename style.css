@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', 'sans-serif';
+    --main-txt-color: #3869d3;
 }
 
 html{
@@ -62,7 +63,7 @@ input:hover, textarea:hover{
 }
 
 input:focus, textarea:focus{
-    border-color: #ffce2c;
+    border-color: var(--main-txt-color);
 }
 
 
@@ -133,8 +134,8 @@ input:focus, textarea:focus{
     line-height: 1;
 }
 
-.yellow {
-    color: #ffce2c
+.blue {
+    color: var(--main-txt-color);
 }
 
 
@@ -226,7 +227,7 @@ LANDING PAGE
 }
 
 .social__link{
-    background-color: #ffce2c;
+    background-color: var(--main-txt-color);
     color: white;
     padding: 6px;
     width: 32px;
@@ -446,8 +447,8 @@ MODAL
 }
 
 .form__submit{
-    background-color: #ffce2c;
-    border: 2px solid #ffce2c;
+    background-color: var(--main-txt-color);
+    border: 2px solid --main-txt-color;
     color: white;
     font-weight: 700;
     width: 100%;
@@ -463,8 +464,8 @@ MODAL
 }
 
 .form__submit:active{
-    border-color: #ffce2c;
-    color: #ffce2c;
+    border-color: var(--main-txt-color);
+    color: var(--main-txt-color);
 }
 
 .modal__overlay{
