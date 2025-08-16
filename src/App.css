@@ -708,7 +708,7 @@ SHAPES
 
 /* Small Phones, tablets, large smart phones */
 @media (max-width: 768px){
-    .title{
+    .title, .title_name{
         font-size: 80PX;
     }
     .header__para{
@@ -737,7 +737,7 @@ SHAPES
 
 /* Small Phones */
 @media (max-width: 480px){
-    .title{
+    .title, .title_name{
         font-size: 52px;
     }
     .header__para{
